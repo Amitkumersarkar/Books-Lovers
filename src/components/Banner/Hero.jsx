@@ -4,9 +4,9 @@ const Hero = () => {
     return (
         <div className="hero bg-base-200 min-h-screen">
             <div className="hero-content flex-col">
-                <img
+                <img 
                     src="books.jpg"
-                    className="max-w-sm rounded-lg shadow-2xl"
+                    className="w-full rounded-lg shadow-2xl"
                 />
                 <div>
                     <h1 className="text-5xl font-bold">Box Office News!</h1>
