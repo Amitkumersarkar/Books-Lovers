@@ -1,19 +1,18 @@
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     const links = <>
-        <li>Home</li>
-        <li>About</li>
-        <li>Blogs</li>
+    <li><NavLink to='/home'>Home</NavLink></li>
     </>
     return (
         <div className="navbar bg-base-100 shadow-sm">
             <div className="flex-1">
                 <a className="btn btn-ghost text-3xl">Books Vibe</a>
             </div>
-            <div className="flex list-none items-center gap-20 pr-20 font-bold cursor-pointer">
+            <div className="flex list-none items-center gap-20 pr-20 font-bold">
                 {links}
             </div>
-            <div className="flex gap-2">
+            <div className="flex gap-2"> 
 
                 <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
                 <div className="dropdown dropdown-end">

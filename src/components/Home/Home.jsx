@@ -1,9 +1,12 @@
+import Hero from "../Banner/Hero";
+import Books from "../Books/Books";
 
 const Home = () => {
 
     return (
-        <div>
-            <h2>This is a home page</h2>
+        <div >
+            <Hero></Hero>
+            <Books></Books>
         </div>
     );
 };
