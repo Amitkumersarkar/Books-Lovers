@@ -5,7 +5,7 @@ const Navbar = () => {
     <li><NavLink to='/home'>Home</NavLink></li>
     </>
     return (
-        <div className="navbar bg-base-100 shadow-sm">
+        <div className="navbar bg-base-100 shadow-sm pb-8 pt-10">
             <div className="flex-1">
                 <a className="btn btn-ghost text-3xl">Books Vibe</a>
             </div>
