@@ -20,5 +20,15 @@ const addToStoredReadList = (id) => {
         localStorage.setItem('read-list', storedListStr);
     }
 }
+const getStoredWishList = () => {
+    const StoredWishListStr = localStorage.getItem('wish-list');
+    if (StoredWishListStr) {
+        const storedWishList = JSON.parse(StoredWishListStr);
+        return storedWishList;
+    }
+    else {
+        return [];
+    }
+}
 
-export {addToStoredReadList}
+export { addToStoredReadList, getStoredWishList, getStoredReadList }
