@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     const links = <>
-    <li><NavLink to='/home'>Home</NavLink></li>
+        <li><NavLink to='/home'>Home</NavLink></li>
     </>
     return (
         <div className="navbar bg-base-100 shadow-sm pb-8 pt-10">
@@ -12,7 +12,7 @@ const Navbar = () => {
             <div className="flex list-none items-center gap-20 pr-20 font-bold">
                 {links}
             </div>
-            <div className="flex gap-2"> 
+            <div className="flex gap-2">
 
                 <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
                 <div className="dropdown dropdown-end">
